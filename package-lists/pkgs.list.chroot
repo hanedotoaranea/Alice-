@@ -1,6 +1,7 @@
 lxqt-core
 lxqt-panel
 pcmanfm-qt
+thunar
 lxqt-session
 openbox
 breeze
@@ -40,3 +41,4 @@ p7zip-full
 qterminal
 arc
 kcalc
+sudo
