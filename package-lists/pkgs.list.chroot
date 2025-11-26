@@ -71,6 +71,9 @@ libdvd-pkg
 libbluray2
 net-tools
 ntfs-3g
+locales ru-ru
+fonts-noto fonts-freefont-ttf
+fonts-dejavu fonts-liberation
 #Appimage
 fuse
 libfuse2
