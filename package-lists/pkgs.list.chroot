@@ -1,21 +1,16 @@
-# Драйверы устройств
 firmware-linux-nonfree
 firmware-iwlwifi
 firmware-realtek
 firmware-atheros
-firmware-intel-sound
 firmware-amd-graphics
-# Графическая подсистема
 xorg
 xserver-xorg-input-libinput
 libinput-tools
-# Управление питанием
 tlp
 tlp-rdw
 powertop
 thermald
 cpufrequtils
-# Окружение LXQt
 lxqt-core
 lxqt-panel
 lxqt-session
@@ -27,7 +22,6 @@ lxqt-themes
 pcmanfm-qt
 qterminal
 sddm
-# Внешний вид
 breeze
 papirus-icon-theme
 arc-theme
@@ -36,7 +30,6 @@ fonts-liberation
 fonts-dejavu
 fonts-noto
 ttf-mscorefonts-installer
-# Системные утилиты
 htop
 lm-sensors
 psensor
@@ -45,7 +38,6 @@ mousepad
 nano
 man-db
 locales
-# Мультимедиа
 vlc
 mpv
 audacious
@@ -60,7 +52,6 @@ libavcodec-extra
 libbluray2
 libdvd-pkg
 pavucontrol-qt
-# Интернет и сеть
 firefox-esr
 chromium
 vivaldi-stable
@@ -70,13 +61,11 @@ qbittorrent
 network-manager
 network-manager-gnome
 net-tools
-# Офис и чтение
 libreoffice
 libreoffice-l10n-ru
 calibre
 fbreader
 okular
-# Архиваторы и файлы
 file-roller
 p7zip-full
 p7zip-rar
@@ -85,10 +74,8 @@ unzip
 zip
 xz-utils
 bzip2
-# Диски и файловые системы
 gparted
 ntfs-3g
-# Дополнительные приложения
 keepassxc
 viewnior
 rhythmbox
