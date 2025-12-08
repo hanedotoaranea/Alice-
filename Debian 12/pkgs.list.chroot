@@ -15,7 +15,7 @@ ecryptfs-utils
 e2fsprogs
 exfatprogs
 fbreader
-fastfetch
+neofetch
 ffmpeg
 file-roller
 firefox-esr
@@ -29,7 +29,6 @@ fonts-dejavu
 fonts-hack
 fonts-liberation
 fonts-noto
-fsck
 fscrypt
 fuse
 f2fs-tools
