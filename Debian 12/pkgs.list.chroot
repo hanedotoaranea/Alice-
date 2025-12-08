@@ -30,7 +30,7 @@ fonts-hack
 fonts-liberation
 fonts-noto
 fscrypt
-fuse
+fuse3
 f2fs-tools
 gparted
 gstreamer1.0-libav
