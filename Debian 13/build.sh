@@ -21,4 +21,6 @@
           --firmware-binary true \ 
           --cache-packages true \ 
           --apt-recommends false \ 
+
+          
 sudo lb build
