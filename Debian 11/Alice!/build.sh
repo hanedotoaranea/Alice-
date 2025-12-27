@@ -3,19 +3,21 @@ lb config -d bullseye \
 --debian-installer-distribution bullseye \
 --debian-installer-gui true \
 --architectures amd64 \
---iso-volume "Alice_$(date +%Y%m%d)" \
 --archive-areas "main contrib non-free" \
 --debootstrap-options "--variant=standard" \
---hdd-label "ALICE_OS" \
---security true \
---zsync true \
---updates true \
---iso-publisher "hanedotoaranea - https://github.com/hanedotoaranea" \
---iso-application "GitHub:https://github.com/hanedotoaranea/" \
 --checksums sha256 \
+--iso-publisher "hanedotoaranea - https://github.com/hanedotoaranea" \
+--security true \
+--updates true \
+--apt-recommends true \
+--firmware-binary true \
+--firmware-chroot true \
+--cache true \
+--cache-packages true \
+--iso-application "GitHub:https://github.com/hanedotoaranea/" \
+--hdd-label "ALICE_OS" \
+--iso-volume "Alice_$(date +%Y%m%d)" \
 --mirror-bootstrap http://deb.debian.org/debian \
 --mirror-binary http://deb.debian.org/debian \
 --mirror-binary-security http://security.debian.org/debian-security \
---cache true \
-
-sudo lb build
+--mirror-debian-installer http://deb.debian.org/debian \
