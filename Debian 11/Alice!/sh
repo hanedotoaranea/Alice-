@@ -1,16 +1,12 @@
-lb config --distribution bullseye \
---architectures amd64 \
---binary-images iso \
---system normal \  # НЕ live, а обычная система
---mode debian \
---debian-installer cdrom \  # Обычный установочный CD/DVD
+lb config -d bullseye \
+--debian-installer live \
 --debian-installer-distribution bullseye \
---debian-installer-gui false \  # Текстовый установщик
+--debian-installer-gui true \
+--architectures amd64 \
 --archive-areas "main contrib non-free" \
---mirror-bootstrap http://deb.debian.org/debian \
---mirror-binary http://deb.debian.org/debian \
---mirror-binary-security http://security.debian.org/debian-security \
---mirror-debian-installer http://deb.debian.org/debian \
+--debootstrap-options "--variant=minbase" \
+--checksums sha256 \
+--iso-publisher "hanedotoaranea - https://github.com/hanedotoaranea" \
 --security true \
 --updates true \
 --apt-indices false \
@@ -19,30 +15,10 @@ lb config --distribution bullseye \
 --firmware-chroot true \
 --cache true \
 --cache-packages true \
+--iso-application "GitHub:https://github.com/hanedotoaranea/" \
 --hdd-label "ALICE_OS" \
 --iso-volume "Alice_$(date +%Y%m%d)" \
---iso-publisher "hanedotoaranea - https://github.com/hanedotoaranea" \
---iso-application "GitHub:https://github.com/hanedotoaranea/" \
---bootappend-install "debian-installer/language=ru console-setup/layoutcode=ru" \
---bootloaders syslinux \
---memtest none \
---linux-flavours amd64 \
---linux-packages "linux-image linux-headers" \
---initsystem systemd \
---initramfs none \  # Без live-boot
---compression gzip \
---checksums sha256 \
---zsync false \
---debconf-frontend noninteractive \
---debconf-priority critical \
---apt apt \
---apt-options "--yes" \
---apt-secure true \
---apt-source-archives false \
---chroot-filesystem plain \  # Простая файловая система
---parent-archive-areas "main contrib non-free" \
---parent-mirror-bootstrap http://deb.debian.org/debian \
---parent-mirror-binary http://deb.debian.org/debian \
---parent-mirror-binary-security http://security.debian.org/debian-security \
---parent-mirror-debian-installer http://deb.debian.org/debian \
---parent-debian-installer-distribution bullseye
+--mirror-bootstrap http://deb.debian.org/debian \
+--mirror-binary http://deb.debian.org/debian \
+--mirror-binary-security http://security.debian.org/debian-security \
+--mirror-debian-installer http://deb.debian.org/debian \
