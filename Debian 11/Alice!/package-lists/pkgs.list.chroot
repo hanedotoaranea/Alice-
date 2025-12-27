@@ -33,7 +33,6 @@ htop
 lm-sensors
 psensor
 neofetch
-fastfetch
 mousepad
 nano
 man-db
@@ -119,10 +118,8 @@ udisks2
 parted
 testdisk
 build-essential
-spectacle
 bleachbit
 thunar
 krita
 darktable
 galculator
-orage
