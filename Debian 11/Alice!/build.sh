@@ -17,7 +17,5 @@ lb config -d bullseye \
 --mirror-binary http://deb.debian.org/debian \
 --mirror-binary-security http://security.debian.org/debian-security \
 --cache true \
---apt-recommends true \
---cache-packages true \
 
 sudo lb build
