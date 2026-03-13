@@ -33,7 +33,6 @@ sddm
 breeze
 papirus-icon-theme
 arc-theme
-qt5-style-plugins
 fonts-hack-ttf
 fonts-liberation
 fonts-dejavu-core
@@ -84,7 +83,7 @@ bleachbit
 systemd
 dbus
 polkitd
-lxqt-policykit-agent
+lxqt-policykit
 vlc
 mpv
 audacious
