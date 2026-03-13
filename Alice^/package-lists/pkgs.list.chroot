@@ -5,7 +5,9 @@ firmware-realtek
 firmware-atheros
 firmware-amd-graphics
 firmware-misc-nonfree
+firmware-sof-signed
 mesa-vdpau-drivers
+va-driver-all
 mesa-va-drivers
 libva2
 libva-drm2
@@ -26,6 +28,7 @@ lxqt-admin
 lxqt-notificationd
 lxqt-powermanagement
 lxqt-themes
+lxqt-qtplugin
 sddm
 breeze
 papirus-icon-theme
@@ -51,7 +54,6 @@ synaptic
 gparted
 ntfs-3g
 exfatprogs
-exfat-fuse
 util-linux
 e2fsprogs
 dosfstools
@@ -82,7 +84,7 @@ bleachbit
 systemd
 dbus
 polkitd
-lxqt-policykit
+lxqt-policykit-agent
 vlc
 mpv
 audacious
@@ -96,11 +98,11 @@ gstreamer1.0-x
 libavcodec-extra
 libbluray2
 libdvd-pkg
-libdvdcss2
 pavucontrol-qt
 pipewire-audio
 wireplumber
 pipewire-pulse
+pipewire-alsa
 alsa-utils
 network-manager
 network-manager-gnome
@@ -123,7 +125,6 @@ fbreader
 okular
 file-roller
 p7zip-full
-p7zip-rar
 unrar
 unzip
 zip
@@ -146,3 +147,4 @@ telegram-desktop
 calamares
 calamares-settings-debian
 libfuse2t64
+xdg-desktop-portal-lxqt
