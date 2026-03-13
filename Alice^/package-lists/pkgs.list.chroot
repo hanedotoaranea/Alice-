@@ -82,7 +82,7 @@ bleachbit
 systemd
 dbus
 polkitd
-policykit-1-gnome
+lxqt-policykit
 vlc
 mpv
 audacious
