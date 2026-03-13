@@ -5,6 +5,12 @@ firmware-realtek
 firmware-atheros
 firmware-amd-graphics
 firmware-misc-nonfree
+mesa-vdpau-drivers
+mesa-va-drivers
+libva2
+libva-drm2
+gdebi
+upower
 amd64-microcode
 intel-microcode
 linux-image-amd64
@@ -35,6 +41,7 @@ htop
 lm-sensors
 psensor
 neofetch
+fastfetch
 mousepad
 nano
 vim
@@ -45,6 +52,7 @@ synaptic
 gparted
 ntfs-3g
 exfatprogs
+exfat-fuse
 util-linux
 e2fsprogs
 dosfstools
@@ -74,7 +82,8 @@ build-essential
 bleachbit
 systemd
 dbus
-policykit-1
+polkitd
+policykit-1-gnome
 vlc
 mpv
 audacious
@@ -90,11 +99,18 @@ libbluray2
 libdvd-pkg
 libdvdcss2
 pavucontrol-qt
-pulseaudio
+pipewire-audio
+wireplumber
+pipewire-pulse
 alsa-utils
 network-manager
 network-manager-gnome
+bluez
+blueman
 net-tools
+curl
+wget
+bash-completion
 firefox-esr
 chromium
 thunderbird
@@ -130,3 +146,4 @@ syncthing-gtk
 telegram-desktop
 calamares
 calamares-settings-debian
+libfuse2t64
