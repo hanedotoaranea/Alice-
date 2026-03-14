@@ -158,6 +158,16 @@ smartmontools
 memtester
 ddrescue
 sddm-config-editor-qt
-
+xfce4
+xfce4-goodies
+xfce4-power-manager
+xfce4-settings
+xfce4-screenshooter
+xfce4-taskmanager
+xfce4-terminal
+xfce4-notifyd
+thunar-archive-plugin
+thunar-volman
+tumbler
 dmidecode
 chntpw
