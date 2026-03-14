@@ -157,5 +157,7 @@ kiwix
 smartmontools
 memtester
 ddrescue
+sddm-config-editor-qt
+
 dmidecode
 chntpw
