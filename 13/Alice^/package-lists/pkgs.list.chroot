@@ -1,4 +1,8 @@
 firmware-linux
+grub-pc
+os-prober
+initramfs-tools
+grub-efi-amd64
 firmware-linux-nonfree
 firmware-iwlwifi
 firmware-realtek
