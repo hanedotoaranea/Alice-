@@ -1,0 +1,15 @@
+lb config -d trixie \
+    --parent-mirror-bootstrap "http://mirror.yandex.ru/debian/" \
+    --parent-mirror-binary "http://mirror.yandex.ru"/debian/ \
+    --mirror-bootstrap "http://mirror.yandex.ru/debian/" \
+    --mirror-binary "http://mirror.yandex.ru/debian/" \
+    --debian-installer live \
+    --debian-installer-distribution trixie \
+    --debian-installer-gui true \
+    --archive-areas "main contrib non-free non-free-firmware" \
+    --iso-application "Alice" \
+    --iso-volume "Alice" \
+    --iso-publisher "Alice" \
+    --updates true \
+    --memtest memtest86+ \
+    --backports true
