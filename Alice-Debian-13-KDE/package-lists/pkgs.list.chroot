@@ -100,7 +100,6 @@ libbluray2
 libdvd-pkg
 libfuse2t64
 libinput-tools
-libmfx1
 libva-drm2
 libva-wayland2
 libva-x11-2
@@ -172,7 +171,6 @@ upower
 usbutils
 util-linux
 va-driver-all
-viewnior
 vim
 vlc
 vulkan-tools
