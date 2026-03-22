@@ -1,2 +1,11 @@
-<img width="1588" height="922" alt="Безымянный" src="https://github.com/user-attachments/assets/8346ad72-71d1-41f6-b812-bf076dea36d4" />
-11
+[![All releases](https://img.shields.io/github/v/release/hanedotoaranea/Alice-lxqt-debian?include_prereleases&style=for-the-badge&label=All+releases)](https://github.com/hanedotoaranea/Alice-lxqt-debian/releases)
+[![Repo size](https://img.shields.io/github/repo-size/hanedotoaranea/Alice-lxqt-debian?style=for-the-badge)](https://github.com/hanedotoaranea/Alice-lxqt-debian)
+# Lates version
+<img width="1281" height="801" alt="{804C42C2-C261-459A-AF86-93D9C9451608}" src="https://github.com/user-attachments/assets/f7bc56c6-4d61-41f3-9c79-0eb4a51c5d7a" />
+
+## Alpha version
+<img width="1361" height="770" alt="image" src="https://github.com/user-attachments/assets/d05b7cdd-daa9-47fd-a6f5-6423784e6f08" />
+<img width="1362" height="769" alt="image" src="https://github.com/user-attachments/assets/bb03233a-46c7-41dd-92d5-694d2ce65d7d" />
+
+## Assembly instructions
+https://live-team.pages.debian.net/live-manual/html/live-manual/index.en.html
