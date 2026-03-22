@@ -1,6 +1,10 @@
 acpi-support
 acpid
+<<<<<<< HEAD
 alsa-ucm-conf
+=======
+alsa-plugins-pulseaudio
+>>>>>>> 0c171e8f1023ae99a0fbf71f62c402c4ef545eeb
 alsa-utils
 amd64-microcode
 apt-offline
@@ -182,11 +186,14 @@ partitionmanager
 pavucontrol-qt
 pciutils
 pdfarranger
+<<<<<<< HEAD
 pipewire
 pipewire-alsa
 pipewire-audio
 pipewire-jack
 pipewire-pulse
+=======
+>>>>>>> 0c171e8f1023ae99a0fbf71f62c402c4ef545eeb
 plasma-browser-integration
 plasma-desktop
 plasma-discover-backend-flatpak
@@ -199,6 +206,8 @@ polkitd
 powerdevil
 powertop
 psensor
+pulseaudio
+pulseaudio-module-bluetooth
 qbittorrent
 rar
 reprepro
@@ -240,16 +249,96 @@ vlc
 vulkan-tools
 webp-pixbuf-loader
 wget
+<<<<<<< HEAD
 wireplumber
 x11-xserver-utils
+=======
+>>>>>>> 0c171e8f1023ae99a0fbf71f62c402c4ef545eeb
 xdg-desktop-portal-kde
 xdg-utils
 xfsprogs
 xorriso
+<<<<<<< HEAD
+=======
+xserver-xorg-input-libinput
+>>>>>>> 0c171e8f1023ae99a0fbf71f62c402c4ef545eeb
 xorg
 xserver-xorg-input-libinput
 xserver-xorg-video-all
 xz-utils
 zip
+<<<<<<< HEAD
 zram-tools
 
+=======
+sddm-theme-debian-elarun
+alsa-ucm-conf
+libasound2-plugins
+xdg-utils
+xserver-xorg-video-all
+libvlc5 
+vulkan-validation-layers
+paprefs 
+ethtool 
+libvlccore9
+gsmartcontrol
+rar 
+unrar 
+exfat-fuse
+fonts-linuxlibertin
+p7zip-rar
+fonts-confconf
+earlyoom
+powertop
+systemd-timesyncd
+kde-config-gtk-style
+kde-config-gtk-style-previe
+ffmpegthumbs
+smbclient
+fonts-linuxlibertine
+fonts-confconf
+mediainfo
+mediainfo-gui
+irqbalance
+haveged
+dbus-user-session
+kimageformats-plugins
+taglib-extras
+kcolorchooser
+kdf
+zram-tools
+prelink
+fonts-noto-ui-core
+fonts-symbola
+fancontrol
+libxml2-utils
+kdegraphics-mobipocket
+kdegraphics-thumbnailers
+baloo-widgets
+gufw 
+fonts-liberation2
+cpufrequtils
+smartmontools
+libheif-examples
+fonts-noto-color-emoji
+webp-pixbuf-loader
+lsb-release
+reprepro
+apt-rdepends
+sigil 
+acpica-tools
+console-setup
+vbetool
+firmware-microcode
+x11-xserver-utils
+laptop-mode-tools
+rfkill
+meld 
+fdupes 
+chntpw 
+dislocker 
+veracrypt-console
+cryptsetup
+memtester 
+bleachbit 
+>>>>>>> 0c171e8f1023ae99a0fbf71f62c402c4ef545eeb
