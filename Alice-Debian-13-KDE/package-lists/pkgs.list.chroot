@@ -252,4 +252,9 @@ xserver-xorg-video-all
 xz-utils
 zip
 zram-tools
-
+qt6-wayland
+qt5-wayland
+mesa-utils
+xwayland
+libgl1-mesa-dri
+libglx-mesa0
