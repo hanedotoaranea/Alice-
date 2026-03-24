@@ -5,6 +5,7 @@
 
 <img width="1920" height="1080" alt="{44F2B730-689F-481D-8563-B21184B29530}" src="https://github.com/user-attachments/assets/62f050b2-a56f-4923-9c89-cd5dca130bd5" />
 
+# Release
 # Debian-11-LxQt
 <img width="1281" height="801" alt="{804C42C2-C261-459A-AF86-93D9C9451608}" src="https://github.com/user-attachments/assets/f7bc56c6-4d61-41f3-9c79-0eb4a51c5d7a" />
 
