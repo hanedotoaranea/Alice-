@@ -117,8 +117,6 @@ bup-doc
 busybox
 bzip2
 ca-certificates
-calamares
-calamares-settings-debian
 calibre
 catdoc
 chntpw
@@ -570,6 +568,8 @@ gpgv
 graphviz
 grep
 groff-base
+grub
+initramfs-tools
 grub-common
 gsmartcontrol
 gsettings-desktop-schemas
@@ -2390,18 +2390,6 @@ linux-image-6.12.73+deb13-amd64
 linux-image-amd64
 linux-libc-dev
 linux-sysctl-defaults
-live-boot
-live-boot-doc
-live-boot-initramfs-tools
-live-config
-live-config-doc
-live-config-systemd
-live-task-base
-live-task-kde
-live-task-localisation
-live-task-localisation-desktop
-live-task-recommended
-live-tools
 lm-sensors
 locales
 login
@@ -3148,3 +3136,4 @@ inkscape
 obs-studio	
 xournalpp 
 fbreader 
+grub-efi-amd64
