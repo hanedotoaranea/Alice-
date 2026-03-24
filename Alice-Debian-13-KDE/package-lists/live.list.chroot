@@ -19,3 +19,10 @@ os-prober
 user-setup
 grub-efi-amd64
 sudo 
+firmware-amd-graphics
+firmware-realtek
+firmware-linux
+
+firmware-sof-signed
+
+
