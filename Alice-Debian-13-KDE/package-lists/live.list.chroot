@@ -22,7 +22,6 @@ sudo
 firmware-amd-graphics
 firmware-realtek
 firmware-linux
-
 firmware-sof-signed
 
 
